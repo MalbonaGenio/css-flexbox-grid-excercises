@@ -82,3 +82,31 @@
   /* so it scales depending on the font size set in card-read-time */
   font-size: 1.25em;
 }
+
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .card-img{
+      height: 300px;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card-title {
+        font-size: 2.25rem
+    }
+  
+    .card-body {
+        font-size: 1.125rem;
+        max-width: 500px;
+    }
+    
+    .card-footer {
+        margin-top: auto;
+    }
+}
